@@ -1,12 +1,19 @@
-## Hi there 👋
+``` ts
+const name: string = 'pacz-dev';
 
-<!--
+class About extends Us {
+    function getOrganizationInfo() {
+        return {
+            founded: 2022,
+            owner: 'philipp-kremer',
+            mission: 'contribute open-source projects from frontend to backend'
+        }
+    }
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+    function getAllMembers() {
+        return [
+            'philipp-kremer'
+        ]
+    }
+}
+```
